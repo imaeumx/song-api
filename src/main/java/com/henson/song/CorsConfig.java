@@ -19,6 +19,7 @@ public class CorsConfig {
                         // Frontend (Vite React)
                         .allowedOrigins(
                                 "http://localhost:5173"
+                                "https://song-ui-gl9x.onrender.com"
                         )
 
                         // IMPORTANT: add methods used by React apps
