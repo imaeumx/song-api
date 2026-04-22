@@ -18,7 +18,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         // Frontend (Vite React)
                         .allowedOrigins(
-                                "http://localhost:5173"
+                                "http://localhost:5173",
                                 "https://song-ui-gl9x.onrender.com"
                         )
 
